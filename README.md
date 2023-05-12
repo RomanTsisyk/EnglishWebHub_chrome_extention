@@ -32,6 +32,4 @@ The tool is open-source and free to use, modify, or distribute. You can customiz
 
 ## Feedback
 
-We hope you find this tool helpful for analyzing your app's user reviews! Feel free to share your thoughts and feedback by creating an issue or submitting a pull request.
-
-![App Screenshot](https://github.com/RomanTsisyk/Google-Play-Console-Reviews-Visualization-Tool/blob/main/screenshot.png)
+I hope you find this tool helpful for analyzing your app's user reviews! Feel free to share your thoughts and feedback by creating an issue or submitting a pull request.
