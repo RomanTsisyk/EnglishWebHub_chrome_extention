@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "EnglishWebHub",
+  "version": "1.0",
+  "description": "Discover a world of English language learning resources at your fingertips with EnglishWebHub. Whether you're a beginner or an advanced learner, this extension provides a curated collection of links to websites, tools, and materials covering various aspects of English learning. Enhance your vocabulary, improve your grammar, prepare for exams, explore reading and listening materials, and develop your speaking and writing skills. With [Extension Name], you can easily navigate through different categories such as General, Vocabulary, Dictionary, Grammar, Exam Preparation, Reading, Listening, Writing, Speaking, Kids, Teens, and Games. Expand your English proficiency and embark on an exciting journey towards fluency. Start exploring the rich world of English learning resources today!",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon32.png",
+    "128": "icon128.png"
+  }
+}

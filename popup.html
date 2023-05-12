@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>English Learning Resources</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      width: 480px; /* Adjust the column width as needed */
+	 padding: 10px; /* Add some spacing between columns */
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .column-header {
+      cursor: pointer;
+    }
+
+    .column-header:hover {
+      color: #007bff;
+    }
+
+    .active-column {
+      background-color: #f8f8f8;
+    }
+	
+		.centered-footer {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin value as needed */
+}
+
+
+    h2 {
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #007bff;
+    }
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="column" id="category1Column">
+      <h2 class="column-header" onclick="toggleCategory('category1')">General</h2>
+      <ul id="category1"></ul>
+    </div>
+    <div class="column" id="category2Column">
+      <h2 class="column-header" onclick="toggleCategory('category2')">Vocabulary</h2>
+      <ul id="category2"></ul>
+    </div>
+    <div class="column" id="category3Column">
+      <h2 class="column-header" onclick="toggleCategory('category3')">Dictionary</h2>
+      <ul id="category3"></ul>
+    </div>
+    <div class="column" id="category4Column">
+      <h2 class="column-header" onclick="toggleCategory('category4')">Grammar</h2>
+      <ul id="category4"></ul>
+    </div>
+    <div class="column" id="category5Column">
+      <h2 class="column-header" onclick="toggleCategory('category5')">Exam Preparation</h2>
+      <ul id="category5"></ul>
+    </div>
+    <div class="column" id="category6Column">
+      <h2 class="column-header" onclick="toggleCategory('category6')">Reading</h2>
+      <ul id="category6"></ul>
+    </div>
+	
+    <div class="column" id="category7Column">
+      <h2 class="column-header" onclick="toggleCategory('category7')">Listening</h2>
+      <ul id="category7"></ul>
+    </div>
+    <div class="column" id="category8Column">
+      <h2 class="column-header" onclick="toggleCategory('category8')">Writing</h2>
+      <ul id="category8"></ul>
+    </div>
+    <div class="column" id="category9Column">
+      <h2 class="column-header" onclick="toggleCategory('category9')">Speaking</h2>
+      <ul id="category9"></ul>
+    </div>
+    <div class="column" id="category10Column">
+      <h2 class="column-header" onclick="toggleCategory('category10')">Speaking 2</h2>
+      <ul id="category10"></ul>
+    </div>
+    <div class="column" id="category11Column">
+      <h2 class="column-header" onclick="toggleCategory('category11')">Kids</h2>
+      <ul id="category11"></ul>
+    </div>
+    <div class="column" id="category12Column">
+      <h2 class="column-header" onclick="toggleCategory('category12')">Teens</h2>
+      <ul id="category12"></ul>
+    </div>    <div class="column" id="category13Column">
+      <h2 class="column-header" onclick="toggleCategory('category13')">Games</h2>
+      <ul id="category13"></ul>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+  <script>
+    function toggleCategory(categoryId) {
+      var category = document.getElementById(categoryId);
+      category.style.display = (category.style.display === 'none') ? 'block' : 'none';
+    }
+  </script>
+</body>
+<footer class="centered-footer">
+  <a href="https://roman-tsisyk.com/" target="_blank">Made by Roman Tsisyk</a>
+</footer>
+
+</html>
