@@ -12,23 +12,6 @@ EnglishWebHub is a powerful browser extension that provides free access to a vas
 
 EnglishWebHub empowers English learners of all levels to explore a world of online resources, enabling self-paced learning and providing a valuable support system in your language journey. Discover new websites, access high-quality materials, and take your English skills to new heights with this indispensable extension.
 
-
-# Productivity Booster - Chrome Extension
-
-Productivity Booster is an intelligent Chrome extension designed to enhance your productivity by implementing the widely acclaimed Pomodoro technique. This powerful tool helps structure your work sessions and break periods, promoting a balanced work-rest routine for a healthier and more productive day.
-
-## Key Features
-
-1. Pomodoro Timer: Automatically divides your time into 25-minute work sessions followed by 5-minute breaks, ensuring that you're maintaining focus while also taking necessary rest periods.
-2. Long Breaks: After four Pomodoro cycles, enjoy a longer, 15-minute break to refresh and recharge.
-3. Custom Timers: Customize the duration of your work sessions and breaks to match your personal productivity rhythm.
-4. Notifications: Receive timely notifications alerting you when it's time to begin your work session or take a break.
-5. Website Blocking: Eliminate distractions by blocking access to time-wasting websites during your work sessions. This feature is fully customizable, allowing you to choose which websites to block.
-6. User-Friendly Interface: With its simple and intuitive design, you can easily monitor your work sessions and breaks, customize settings, and enjoy a distraction-free environment.
-
-Whether you're a professional aiming to make the most of your workday, a student striving for focused study sessions, or anyone looking to maximize productivity, Productivity Booster is the perfect tool to enhance your time management skills and boost your output.
-Embrace the power of the Pomodoro technique and experience the difference with Productivity Booster!
-
 ## How to Install
 
 1. Open the GitHub page of the extension you want to install.
