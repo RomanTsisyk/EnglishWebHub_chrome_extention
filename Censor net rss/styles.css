@@ -1,0 +1,110 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the font for the entire popup */
+body, html {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* Style the header with the logo */
+.header {
+  display: flex; /* Use flexbox to arrange children */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  padding: 20px;
+  background-color: white;
+  width: 720px; /* Adjust the header width */
+  margin: auto; /* Center the header */
+}
+
+/* Main content styling */
+.main-content {
+  display: block; /* Change from flex to block to stack elements vertically */
+  width: 720px; /* Set the main content width */
+  margin: auto; /* Center the main content */
+  padding-bottom: 40px; /* Add bottom padding to accommodate the fixed footer height */
+
+}
+
+/* Style individual channel items */
+.channel-item {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 18px; /* Increase font size for channel items */
+}
+
+/* News items styling */
+.news-item {
+  background: #fafafa; /* Lighter background for the card */
+  margin-bottom: 10px;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 4px; /* Rounded corners for card effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  
+}
+
+.news-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Elevated shadow on hover for lift effect */
+}
+
+.news-content {
+  padding: 10px;
+}
+
+.news-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.date-published {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  width: 720px; /* Set the footer width */
+  position: relative; /* Change from fixed to relative */
+  bottom: auto;
+    margin-top: 20px; /* Add margin top to create space between content and footer */
+
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Error message styling */
+#error-message {
+  color: red;
+  background-color: #ffc0cb; /* Light pink background for visibility */
+  padding: 10px;
+  margin-top: 10px;
+  display: none; /* Hidden by default */
+}
